@@ -12,4 +12,6 @@ git clone https://github.com/restrawed/Merge-custom-ZImage-Kernel-to-Boot-Image-
 cd Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 chmod 777 ./*
 ./start
+cd ~
+rm -rf Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 ```
