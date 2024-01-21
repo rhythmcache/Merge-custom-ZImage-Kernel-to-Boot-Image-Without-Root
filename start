@@ -4,5 +4,9 @@ rm ./kernel
 mv /sdcard/Image ./kernel
 ./magiskboot repack ./boot.img
 mv ./new-boot.img /sdcard/
-echo -e "${green}Script Completed${clear}!"
-echo -e "${red}Your Newly Created (new-boot.img) is in your internal storage${clear}!"
+echo Script Completed!
+echo Your Newly Created (new-boot.img) is in your internal storage
+echo cleaning.........
+rm -rf ./*
+cd ~
+rmdir Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
