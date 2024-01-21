@@ -1,7 +1,7 @@
 # Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 ## Usage
 This Script will only Work On Termux.
-
+video tutorial - https://youtu.be/uFfbJuQ5G-A
 
 ## Installation
 Rename Your original boot file to boot.img and rename Custom Kernel/Zimage file to Image and put it in your internal storage (/sdcard)...
