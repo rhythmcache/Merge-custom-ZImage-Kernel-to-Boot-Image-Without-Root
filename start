@@ -1,0 +1,6 @@
+cp /sdcard/boot.img ./
+./magiskboot unpack ./boot.img
+rm ./kernel
+mv /sdcard/Image ./kernel
+./magiskboot repack ./boot.img
+mv ./new-boot.img /sdcard/
