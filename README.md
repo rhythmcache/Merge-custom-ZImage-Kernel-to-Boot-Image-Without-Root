@@ -7,7 +7,7 @@ video tutorial - https://youtu.be/uFfbJuQ5G-A
 Rename Your original boot file to boot.img and rename Custom Kernel/Zimage file to Image and put it in your internal storage (/sdcard)...
 then just run this command in Termux. 
 ```
-pkg install git
+pkg install git -y
 git clone https://github.com/restrawed/Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 cd Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 chmod 777 ./*
