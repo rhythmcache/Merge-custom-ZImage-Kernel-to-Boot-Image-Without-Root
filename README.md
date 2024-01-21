@@ -9,7 +9,7 @@ then just run this command in Termux.
 ```
 pkg install git
 git clone https://github.com/restrawed/Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
-cd https://github.com/restrawed/Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
+cd Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 chmod 777 ./*
 ./start
 ```
