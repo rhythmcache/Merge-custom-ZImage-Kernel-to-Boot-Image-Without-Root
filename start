@@ -4,3 +4,5 @@ rm ./kernel
 mv /sdcard/Image ./kernel
 ./magiskboot repack ./boot.img
 mv ./new-boot.img /sdcard/
+echo -e "${green}Script Completed${clear}!"
+echo -e "${red}Your Newly Created (new-boot.img) is in your internal storage${clear}!"
