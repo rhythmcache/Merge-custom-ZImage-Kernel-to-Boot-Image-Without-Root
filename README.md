@@ -8,7 +8,7 @@ Rename Your original boot file to boot.img and rename Custom Kernel/Zimage file 
 then just run this command in Termux. 
 ```
 pkg install git -y
-git clone https://github.com/restrawed/Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
+git clone https://github.com/rhythmcache/Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 cd Merge-custom-ZImage-Kernel-to-Boot-Image-Without-Root
 chmod 777 ./*
 ./start
